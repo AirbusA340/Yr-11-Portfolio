@@ -1,1 +1,32 @@
+body, html {
+    height: 100%;
+  }
+body {
+    background-image: url("background.PNG");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    color: white;
+    margin-top: -30px;
+}
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+.topnav a {
+    color:white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    padding: 14px 16px;
+}
+.topnav a:hover {
+    background-color: #868686;
+    color: black;
+}
 
