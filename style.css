@@ -1,4 +1,4 @@
-body, html {
+body,.projects, html{
     height: 100%;
   }
 body {
@@ -8,6 +8,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+.projects {
+    background-image: url("background2.PNG");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
   h1 {
     font-family: 'Courier New', Courier, monospace;
     text-align: right;
@@ -29,4 +36,17 @@ body {
     background-color: #868686;
     color: black;
 }
-
+.middlenav a {
+    margin: 0 auto;
+    color: white;
+    text-decoration: none;
+    font-family:   'Sudo Var', sans-serif;
+    text-align: center;
+    padding: 10px 12px;
+    font-size: xx-large;
+    text-align: center;
+}
+h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
