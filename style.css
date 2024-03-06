@@ -36,17 +36,33 @@ body {
     background-color: #868686;
     color: black;
 }
+.middlenav {
+    margin: auto;
+    width: 650px;
+}
 .middlenav a {
     margin: 0 auto;
     color: white;
     text-decoration: none;
     font-family:   'Sudo Var', sans-serif;
-    text-align: center;
     padding: 10px 12px;
     font-size: xx-large;
-    text-align: center;
+    width: 200px;
+    display: block;
+}
+.middlenav a:hover {
+    font-size: 50px;
 }
 h2 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
+    text-align: center;
+}
+h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
 }
