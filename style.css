@@ -97,3 +97,11 @@ li {
     color:rgb(245, 182, 110);
     width: 800px;
 }
+.turnaround {
+    float: right;
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    border-color: black;
+    border-width:thick;
+}
