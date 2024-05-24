@@ -1,4 +1,4 @@
-body, html {
+body,.projects,.other, html{
     height: 100%;
   }
 body {
@@ -7,14 +7,31 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(58, 42, 32, 1);
   }
+<<<<<<< HEAD
 body.Projects {
     background-image: url("anotherbackground.PNG");
+=======
+.projects {
+    background-image: url("background2.PNG");
+>>>>>>> 8bb642243ff37a4f8da0c6dec396f6f6ad344a78
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+<<<<<<< HEAD
   }   
+=======
+}
+.other {
+    background-image: url("kendricklmao.PNG");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+>>>>>>> 8bb642243ff37a4f8da0c6dec396f6f6ad344a78
   h1 {
     font-family: 'Courier New', Courier, monospace;
     text-align: right;
@@ -36,4 +53,64 @@ body.Projects {
     background-color: #868686;
     color: black;
 }
-
+.middlenav {
+    margin: auto;
+    width: 650px;
+}
+.middlenav a {
+    margin: 0 auto;
+    color: white;
+    text-decoration: none;
+    font-family:   'Sudo Var', sans-serif;
+    padding: 10px 12px;
+    font-size: xx-large;
+    width: 500px;
+    display: block;
+    padding-left: 100px;
+}
+.middlenav a:hover {
+    font-size: 50px;
+}
+h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+p {
+    font-family:'Courier New', Courier, monospace;
+    padding-bottom: 200px;
+    font-size: 20px;
+    color:rgb(245, 182, 110);
+    width: 800px;
+}
+h4 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+ul {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    color:rgb(245, 182, 110);
+    width: 800px;
+}
+li {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:rgb(245, 182, 110);
+    width: 800px;
+}
+.turnaround {
+    float: right;
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    border-color: black;
+    border-width:thick;
+}
