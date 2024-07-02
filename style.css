@@ -10,7 +10,7 @@ body {
     background-color: rgba(58, 42, 32, 1);
   }
 
-body.Projects {
+body.projects {
     background-image: url("anotherbackground.PNG");
     height: 100%;
     background-position: center;
